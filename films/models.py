@@ -1,7 +1,7 @@
 from django.db import models
 
 class Film(models.Model):
-    name = models.CharField(max_length=40)
+    name = models.CharField(max_length=80)
     gender = models.CharField(max_length=40)
     release_date = models.DateField()
     director = models.CharField(max_length=40)
